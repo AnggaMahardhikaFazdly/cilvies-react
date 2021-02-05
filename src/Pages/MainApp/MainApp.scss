@@ -1,0 +1,40 @@
+.logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+}
+
+
+.layout {
+    min-height: 100vh;
+
+    .site-layout .site-layout-background {
+        background: #fff;
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+    
+            .header-logo {
+                display: inline;
+                margin-left: 3vw;
+                font-family: 'ZCOOL KuaiLe';
+                font-size: 40px;
+            }
+            
+            .header-avatar {
+                background-color: #87d068;
+                margin-right: 3vw;
+                margin-top: 2.5vh;
+            }
+    
+        }
+    
+    }
+    
+   
+}
+
+.footer {
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+.dvd-list {
+    margin-bottom: 3vh;
+    justify-content: space-between;
+    border: 1px solid #eee8e8;
+    background-color: #e9edf0;
+    text-align: start;
+
+    .img-list {
+        margin-left: 1vw;
+        width: 13vw;
+        height: 17vh;
+    }
+
+    .title-list {
+        width: 10vw;
+    }
+
+    .description-list {
+        width: 35vw;
+    }
+
+    .action-list {
+        width: 7vw;
+        color: #0f83e2;
+        cursor: pointer;
+        font-size: 1rem;
+        
+        .link-edit {
+            margin-left: 1vw;
+        }
+
+        .button-delete {
+            margin-left: 1vw;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
